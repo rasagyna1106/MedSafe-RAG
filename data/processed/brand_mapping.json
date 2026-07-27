@@ -1,0 +1,23 @@
+{
+  "acetominophen": "acetaminophen",
+  "advil": "ibuprofen",
+  "aleve": "naproxen",
+  "amoxil": "amoxicillin",
+  "ativan": "lorazepam",
+  "coumadin": "warfarin",
+  "eliquis": "apixaban",
+  "glucophage": "metformin",
+  "lantus": "insulin glargine",
+  "lipitor": "atorvastatin",
+  "lopressor": "metoprolol",
+  "loreev": "lorazepam",
+  "motrin": "ibuprofen",
+  "norliqva": "amlodipine",
+  "norvasc": "amlodipine",
+  "qbrelis": "lisinopril",
+  "tylenol": "acetaminophen",
+  "xarelto": "rivaroxaban",
+  "zithromax": "azithromycin",
+  "zocor": "simvastatin",
+  "zoloft": "sertraline"
+}

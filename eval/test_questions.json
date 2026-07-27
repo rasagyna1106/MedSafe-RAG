@@ -1,0 +1,302 @@
+[
+  {
+    "id": "Q001",
+    "category": "single_drug_warnings",
+    "question": "What are the warnings for metformin?",
+    "target_drug": "metformin",
+    "target_section": "warnings",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["lactic acidosis", "kidney", "renal", "alcohol", "contrast"],
+    "notes": ""
+  },
+  {
+    "id": "Q002",
+    "category": "single_drug_warnings",
+    "question": "Is lorazepam habit forming?",
+    "target_drug": "lorazepam",
+    "target_section": "warnings",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["dependence", "habit", "addict", "benzodiazepine", "withdrawal"],
+    "notes": ""
+  },
+  {
+    "id": "Q003",
+    "category": "single_drug_warnings",
+    "question": "What should I watch for when my dad starts lisinopril?",
+    "target_drug": "lisinopril",
+    "target_section": "warnings",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["cough", "angioedema", "blood pressure", "hypotension", "dizzy"],
+    "notes": ""
+  },
+  {
+    "id": "Q004",
+    "category": "single_drug_warnings",
+    "question": "Are there any liver risks with atorvastatin?",
+    "target_drug": "atorvastatin",
+    "target_section": "warnings",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["liver", "hepatic", "muscle", "rhabdomyolysis", "stat"],
+    "notes": ""
+  },
+  {
+    "id": "Q005",
+    "category": "single_drug_warnings",
+    "question": "What are the side effects of sertraline?",
+    "target_drug": "sertraline",
+    "target_section": "warnings",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["suicid", "serotonin", "nausea", "diarrhea", "insomnia"],
+    "notes": ""
+  },
+  {
+    "id": "Q006",
+    "category": "single_drug_warnings",
+    "question": "Is naproxen safe for someone with kidney problems?",
+    "target_drug": "naproxen",
+    "target_section": "warnings",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["kidney", "renal", "nsaid", "bleeding", "stomach"],
+    "notes": ""
+  },
+  {
+    "id": "Q007",
+    "category": "single_drug_dosage",
+    "question": "What is the normal dose of metformin for adults?",
+    "target_drug": "metformin",
+    "target_section": "dosage_and_administration",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["500", "1000", "mg", "daily", "twice", "tablet"],
+    "notes": ""
+  },
+  {
+    "id": "Q008",
+    "category": "single_drug_dosage",
+    "question": "How often can my mom take ibuprofen?",
+    "target_drug": "ibuprofen",
+    "target_section": "dosage_and_administration",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["4", "6", "hours", "every", "24", "tablet"],
+    "notes": ""
+  },
+  {
+    "id": "Q009",
+    "category": "single_drug_dosage",
+    "question": "What is the maximum daily dose of acetaminophen?",
+    "target_drug": "acetaminophen",
+    "target_section": "dosage_and_administration",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["4000", "3250", "mg", "daily", "maximum", "liver"],
+    "notes": ""
+  },
+  {
+    "id": "Q010",
+    "category": "single_drug_dosage",
+    "question": "How should warfarin be taken — with food or without?",
+    "target_drug": "warfarin",
+    "target_section": "dosage_and_administration",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["food", "vitamin k", "diet", "consistent", "daily"],
+    "notes": ""
+  },
+  {
+    "id": "Q011",
+    "category": "single_drug_dosage",
+    "question": "Can you take amoxicillin twice a day instead of three times?",
+    "target_drug": "amoxicillin",
+    "target_section": "dosage_and_administration",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["every", "8", "12", "hours", "dose", "mg"],
+    "notes": ""
+  },
+  {
+    "id": "Q012",
+    "category": "single_drug_dosage",
+    "question": "What is the dosage for azithromycin for adults?",
+    "target_drug": "azithromycin",
+    "target_section": "dosage_and_administration",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["500", "mg", "day", "dose", "tablet", "zithromax"],
+    "notes": ""
+  },
+  {
+    "id": "Q013",
+    "category": "two_drug_interaction",
+    "question": "Can my mom take warfarin and ibuprofen together?",
+    "target_drug": "warfarin,ibuprofen",
+    "target_section": "drug_interactions",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["bleeding", "nsaid", "warfarin", "ibuprofen", "anticoagul"],
+    "notes": ""
+  },
+  {
+    "id": "Q014",
+    "category": "two_drug_interaction",
+    "question": "Is it safe to take metformin and lisinopril at the same time?",
+    "target_drug": "metformin,lisinopril",
+    "target_section": "drug_interactions",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["metformin", "lisinopril", "kidney", "blood pressure", "safe"],
+    "notes": ""
+  },
+  {
+    "id": "Q015",
+    "category": "two_drug_interaction",
+    "question": "Can sertraline and lorazepam be taken together?",
+    "target_drug": "sertraline,lorazepam",
+    "target_section": "drug_interactions",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["sertraline", "lorazepam", "sedat", "drows", "cns", "depress"],
+    "notes": ""
+  },
+  {
+    "id": "Q016",
+    "category": "two_drug_interaction",
+    "question": "Does ibuprofen affect warfarin levels?",
+    "target_drug": "warfarin,ibuprofen",
+    "target_section": "drug_interactions",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["bleeding", "inr", "warfarin", "ibuprofen", "nsaid"],
+    "notes": ""
+  },
+  {
+    "id": "Q017",
+    "category": "two_drug_interaction",
+    "question": "Is naproxen safe to take with blood pressure medication?",
+    "target_drug": "naproxen",
+    "target_section": "drug_interactions",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["blood pressure", "nsaid", "kidney", "hypertension", "naproxen"],
+    "notes": ""
+  },
+  {
+    "id": "Q018",
+    "category": "two_drug_interaction",
+    "question": "Can atorvastatin and amlodipine be taken together?",
+    "target_drug": "atorvastatin,amlodipine",
+    "target_section": "drug_interactions",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["atorvastatin", "amlodipine", "muscle", "interaction", "dose"],
+    "notes": ""
+  },
+  {
+    "id": "Q019",
+    "category": "two_drug_interaction",
+    "question": "What happens if you take metformin with alcohol?",
+    "target_drug": "metformin",
+    "target_section": "warnings",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["alcohol", "lactic acidosis", "hypoglycemia", "metformin", "liver"],
+    "notes": ""
+  },
+  {
+    "id": "Q020",
+    "category": "two_drug_interaction",
+    "question": "Is it safe to combine acetaminophen and warfarin?",
+    "target_drug": "acetaminophen,warfarin",
+    "target_section": "drug_interactions",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["warfarin", "acetaminophen", "bleeding", "inr", "interaction"],
+    "notes": ""
+  },
+  {
+    "id": "Q021",
+    "category": "brand_name",
+    "question": "Is Tylenol safe to take every day?",
+    "target_drug": "acetaminophen",
+    "target_section": "warnings",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["acetaminophen", "liver", "daily", "dose", "4000", "3250"],
+    "notes": "Brand tylenol should resolve to acetaminophen"
+  },
+  {
+    "id": "Q022",
+    "category": "brand_name",
+    "question": "Can my dad take Advil with his heart medication?",
+    "target_drug": "ibuprofen",
+    "target_section": "drug_interactions",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["ibuprofen", "bleeding", "heart", "nsaid", "interaction"],
+    "notes": "Brand advil should resolve to ibuprofen"
+  },
+  {
+    "id": "Q023",
+    "category": "brand_name",
+    "question": "What are the side effects of Coumadin?",
+    "target_drug": "warfarin",
+    "target_section": "warnings",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["warfarin", "bleeding", "bruising", "hemorrhage", "inr"],
+    "notes": "Brand coumadin should resolve to warfarin"
+  },
+  {
+    "id": "Q024",
+    "category": "brand_name",
+    "question": "Is Motrin the same as ibuprofen?",
+    "target_drug": "ibuprofen",
+    "target_section": "indications_and_usage",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["ibuprofen", "motrin", "same", "nsaid", "pain"],
+    "notes": "Brand motrin should resolve to ibuprofen"
+  },
+  {
+    "id": "Q025",
+    "category": "brand_name",
+    "question": "What is Glucophage used for?",
+    "target_drug": "metformin",
+    "target_section": "indications_and_usage",
+    "expected_behavior": "answer",
+    "ground_truth_keywords": ["metformin", "diabetes", "glucose", "blood sugar", "type 2"],
+    "notes": "Brand glucophage should resolve to metformin"
+  },
+  {
+    "id": "Q026",
+    "category": "out_of_scope",
+    "question": "Is it safe to take ozempic with my heart medication?",
+    "target_drug": "",
+    "target_section": "",
+    "expected_behavior": "abstain",
+    "ground_truth_keywords": [],
+    "notes": "ozempic not in corpus"
+  },
+  {
+    "id": "Q027",
+    "category": "out_of_scope",
+    "question": "What are the side effects of Humira?",
+    "target_drug": "",
+    "target_section": "",
+    "expected_behavior": "abstain",
+    "ground_truth_keywords": [],
+    "notes": "humira not in corpus"
+  },
+  {
+    "id": "Q028",
+    "category": "out_of_scope",
+    "question": "Can I take penicillin with amoxicillin?",
+    "target_drug": "",
+    "target_section": "",
+    "expected_behavior": "abstain",
+    "ground_truth_keywords": [],
+    "notes": "penicillin not in corpus; may partially retrieve amoxicillin"
+  },
+  {
+    "id": "Q029",
+    "category": "out_of_scope",
+    "question": "What is the dosage for zolpidem?",
+    "target_drug": "",
+    "target_section": "",
+    "expected_behavior": "abstain",
+    "ground_truth_keywords": [],
+    "notes": "zolpidem not in corpus"
+  },
+  {
+    "id": "Q030",
+    "category": "out_of_scope",
+    "question": "Is it safe to drive after taking my medication?",
+    "target_drug": "",
+    "target_section": "",
+    "expected_behavior": "abstain",
+    "ground_truth_keywords": [],
+    "notes": "Too vague to retrieve reliably"
+  }
+]

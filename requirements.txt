@@ -1,0 +1,12 @@
+ijson
+langchain
+langchain-text-splitters
+faiss-cpu
+sentence-transformers
+openai
+python-dotenv
+pandas
+fastapi
+uvicorn[standard]
+jinja2
+ragas

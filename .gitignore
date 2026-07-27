@@ -1,0 +1,39 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Large openFDA dumps (too big for GitHub; keep locally under data/raw/)
+data/raw/
+drug-label-*.json
+
+# Local inspection / scratch outputs
+data/processed/inspect_*.txt
+data/processed/chunk_inspect_output.txt
+
+# IDE / OS
+.vs/
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Eval / local outputs
+eval/results.csv
+*.log
+
+# Temp scripts
+_tmp_*.py
