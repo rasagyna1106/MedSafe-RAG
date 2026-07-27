@@ -41,8 +41,8 @@ Help family caregivers understand medication safety information from FDA labels 
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPO_URL>
-cd "MedSafe RAG"
+git clone https://github.com/rasagyna1106/MedSafe-RAG.git
+cd MedSafe-RAG
 ```
 
 If you already have the project folder locally, skip clone and `cd` into it:
@@ -50,9 +50,6 @@ If you already have the project folder locally, skip clone and `cd` into it:
 ```bash
 cd "MedSafe RAG"
 ```
-
-> Replace `<YOUR_GITHUB_REPO_URL>` with your GitHub URL, for example:  
-> `https://github.com/<username>/MedSafe-RAG.git`
 
 ### 2. Create a virtual environment (recommended)
 
