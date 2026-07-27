@@ -18,8 +18,8 @@ Help family caregivers understand medication safety information from FDA labels 
 - **Abstain** when retrieval is weak, ambiguous, or the drug is outside the corpus.
 - Classify interaction risk **deterministically from retrieved FDA chunks** (HIGH / MODERATE / LOW / UNKNOWN) — shared by both UI tabs.
 - Offer two caregiver workflows:
-  - **Ask a Question** — free-text Q&A
-  - **Medication Checker** — multi-med list → pairwise interaction matrix
+  - **Ask a Question** - free-text Q&A
+  - **Medication Checker** - multi-med list → pairwise interaction matrix
 
 ## Outcomes
 
