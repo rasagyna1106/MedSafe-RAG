@@ -198,10 +198,10 @@ Risk is computed **from retrieved FDA chunks before the LLM runs** (`classify_ri
 1. Consider only chunks for the two named drugs.
 2. Restrict to sections: `drug_interactions`, `warnings`, `contraindications`.
 3. Assign:
-   - **UNKNOWN** — no relevant text for the pair  
-   - **HIGH** — bleeding / contraindicated / fatal-style patterns  
-   - **MODERATE** — monitor / caution / may affect patterns  
-   - **LOW** — relevant text present but no HIGH/MODERATE match  
+   - **UNKNOWN** - no relevant text for the pair  
+   - **HIGH** - bleeding / contraindicated / fatal-style patterns  
+   - **MODERATE** - monitor / caution / may affect patterns  
+   - **LOW** - relevant text present but no HIGH/MODERATE match  
 
 Both **Ask** and **Medication Checker** use this same signal for UI colors.
 
