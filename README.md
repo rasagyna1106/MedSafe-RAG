@@ -185,7 +185,7 @@ Browser (Ask / Medication Checker)
 | LLM | **gpt-4o-mini** |
 
 ### Known dataset limits
-- **apixaban:** 0 records in openFDA parts 1–3 (documented coverage gap).
+- **apixaban:** 0 records in openFDA parts 1-3 (documented coverage gap).
 - Sparse coverage for some drugs (e.g. insulin glargine has few labels in these parts).
 - Ask-tab drug extraction is strongest for the **18 corpus drugs** (and mapped brands). Drugs outside the corpus may show as Unknown / abstain on Ask even when Medication Checker can still run an explicit pair.
 
